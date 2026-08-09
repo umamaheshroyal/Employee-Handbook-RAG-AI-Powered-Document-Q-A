@@ -1,0 +1,41 @@
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.3.0
+openai>=1.0.0
+faiss-cpu>=1.8.0
+pypdf>=5.0.0
+python-dotenv>=1.0.1
+tiktoken>=0.8.0
+
+# Environment variables
+python-dotenv
+
+# LangChain core
+langchain
+langchain-core
+langchain-community
+
+# OpenAI / OpenRouter integration
+langchain-openai
+openai
+
+# PDF loading
+pypdf
+
+# Vector database
+faiss-cpu
+
+# Embeddings support
+tiktoken
+
+# Data processing
+numpy
+pandas
+
+# Utilities
+requests
+
+# Optional: better logging and configuration
+pyyaml
+uvicorn
