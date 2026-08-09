@@ -7,7 +7,7 @@ __pycache__/
 venv/
 env/
 
-# Environment variables / secrets
+# Environment variables / API keys
 .env
 .env.*
 !.env.example
@@ -25,13 +25,13 @@ logs/
 .vscode/
 .idea/
 
-# Jupyter
-.ipynb_checkpoints/
-
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # OS files
 .DS_Store
